@@ -163,6 +163,12 @@
     flex-wrap: wrap; /* Permite quebrar linha se necessário */
     width: 60%; /* Garante que o container ocupe toda a largura */
     
+    border-radius: 1rem;
+    background: var(--Void, #01080E);
+    box-shadow: 0px 0px 20px 0px rgba(1, 8, 14, 0.50);
+
+     color: var(--Branco, #077ef5);
+    
     font-weight: 200;
     font-size: 4rex;
 
@@ -223,3 +229,73 @@
 .btn-perfil:hover {
     background-color: #eff2f560; /* Cor ao passar o mouse */
 }
+
+
+.quantidade-input {
+    display: flex;
+    height: 3.5rem;
+    padding: 1rem;
+    width: 4.5rem;
+    border-radius: 0.5rem;
+    border: 2px solid var(--Light-Blue, #1875E8);
+  
+    color: var(--Void, #01080E);
+    font-family: Inter;
+    font-size: 1.3125rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 110%;
+  }
+
+.botoes-wrapper {
+    display: flex;
+    align-items: flex-end;
+    gap: 1rex;
+    line-height: 110px;
+  }
+
+.campo-grupo {
+    display: flex;
+    flex-direction: grid;
+    align-items: center;
+    gap: 1rem;
+}
+
+.parte-inferior {
+    display: flex;
+    align-items: flex-end;
+    gap: 0.5rem;
+    margin: 10px;
+}
+.texto-medio-azul {
+    color: var(--Light-Blue, #ffffff);
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.botao-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 3.25rem;
+    padding: 1rem 1.5rem;
+    gap: 0.625rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    line-height: 110px;
+  }
+  
+.botao-adicionar {
+    background: var(--Light-Blue, #1875E8);
+    box-shadow: 0px 0px 20px 0px rgba(24, 117, 232, 0.50);
+  
+    color: var(--Branco, #FFF);
+    font-size: 2rex;
+    font-weight: 700;
+
+    
+  }
+  
+
