@@ -38,3 +38,9 @@ function adicionar() {
 function limpar() {
 
 }
+
+function pagar() {
+    let pagamento = document.getElementById('pagamento').value;
+
+    alert(pagamento);
+}

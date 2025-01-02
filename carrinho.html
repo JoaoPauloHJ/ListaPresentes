@@ -26,12 +26,12 @@
         <label class="campo-grupo">
           <span class="texto-medio-azul">Produto</span>
           <select class="produto-input" name="produto" id="produto">
-            <option value="Fone de ouvido - R$100">God Of War Ragnarok - R$250,00</option>
-            <option value="Celular - R$1400">Farming Simulator 2025 - R$325,00</option>
-            <option value="Oculus VR - R$5000">GTA VI - R$699,00</option>
-            <option value="Fone de ouvido - R$100">FIFA 2025 - R$299,00</option>
-            <option value="Celular - R$1400">Black Ops 6 - R$360,00</option>
-            <option value="Oculus VR - R$5000">Sons Of The Forest - R$42,00</option>
+            <option value="God Of War Ragnarok - R$199,00">God Of War Ragnarok - R$199,00</option>
+            <option value="Farming Simulator 2025 - R$325,00">Farming Simulator 2025 - R$325,00</option>
+            <option value="GTA VI - R$699,00">GTA VI - R$699,00</option>
+            <option value="FIFA 2025 - R$299,00">FIFA 2025 - R$299,00</option>
+            <option value="Black Ops 6 - R$360,00">Black Ops 6 - R$360,00</option>
+            <option value="Sons Of The Forest - R$42,00">Sons Of The Forest - R$42,00</option>
           </select>
           </div>
         </label>
@@ -59,6 +59,7 @@
         <img src="./assets/icone-carrinho.svg" alt="ícone de carrinho">
 
         <h2 class="carrinho__titulo">Produtos no carrinho</h2>
+        
       </div>
 
       <section class="carrinho__produtos" id="lista-produtos">
@@ -70,10 +71,36 @@
       <div class="divisoria"></div>
 
       <p class="carrinho__total">
-        Total: <span class="texto-azul" id="valor-total">R$250,00</span>
+        Total: <span class="texto-azul" id="valor-total">R$199,00</span>
       </p>
+      <form class="formularioVenda">
+        <label class="campo-grupo2">
+          <span class="texto-medio-azul">Formas de Pagamento</span>
+          <select class="pagamento-input" name="pagamento" id="pagamento">
+            <option value="À vista (Boleto ou Pix)">À vista (Boleto ou Pix)</option>
+            <option value="Parcela 1x">Parc. 1x</option>
+            <option value="Parcela 2x">Parc. 2x</option>
+            <option value="Parcela 3x">Parc. 3x</option>
+            <option value="Parcela 4x">Parc. 4x</option>
+            <option value="Parcela 5x">Parc. 5x</option>
+            <option value="Parcela 6x">Parc. 6x</option>
+            <option value="Parcela 7x">Parc. 7x</option>
+            <option value="Parcela 8x">Parc. 8x</option>
+            <option value="Parcela 9x ">Parc. 9x</option>
+            <option value="Parcela 10x">Parc. 10x</option>
+            <option value="Parcela 11x">Parc. 11x</option>
+            <option value="Parcela 12x">Parc. 12x</option>
+          </select>
+          </div>
+          <section class="botoes-venda">
+            <button onclick="pagar()" type="button" class="botao-venda botao-pagar">Pagar</button>
+          </section>
+        </section>
+      </form>
     </section>
+    
   </main>
+  
 
   <script src="js/app.js"></script>
 </body>
