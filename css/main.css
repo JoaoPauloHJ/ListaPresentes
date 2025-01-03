@@ -7,7 +7,7 @@
     min-height: 100vh;
 
     background: rgb(0, 0, 0);
-    background: linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 25%, rgba(0, 0, 0) 50%, rgb(193, 4, 207) 75%, rgb(0, 0, 0) 100%);
+    background: linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 25%, rgba(0, 0, 0) 50%, rgba(194, 4, 207, 0.434) 75%, rgb(0, 0, 0) 100%);
     background-repeat: no-repeat;
     background-attachment: fixed;
 
@@ -67,7 +67,7 @@
 }
 
 .page-title__emphasis {
-    color: #f10ccf;
+    color: #f107ce;
 }
 
 .dashboard {
