@@ -4,20 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JoaoPH Games</title>
+    <title>Lista Presente J & M</title>
     <link rel="stylesheet" href="css/main.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 
 <body class="body">
     <main class="container main">
-        <img src="img/coca.png" class="dashbord_logo">
+        <img src="img/logo.png" class="dashbord_logo">
         <section class="divisor">
             <div class="divisor__line"></div>
             <img src="img/fade_bar.svg" alt="Visual bar" class="divisor__bar">
             <div class="divisor__line"></div>
         </section>
-        <h1 class="page-title">Novos <span class="page-title__emphasis">Jogos 2025</span></h1>
+        <h1 class="page-title">Lista Presentes <span class="page-title__emphasis">Chá de Casa Nova</span></h1>
         <div class="container-botoes">
             <a href="carrinho.html">
             <button class="btn-icon">
@@ -32,31 +32,19 @@
             <ul class="dashboard__items">
                 <li class="dashboard__items__item" id="game-1">
                     <div class="dashboard__item__img"> 
-                        <img src="img/god_of_war_rag.png" alt="Capa jogo God Of War">
+                        <img src="img/jogopanela.png" alt="Capa jogo God Of War">
                     </div>
-                    <p class="dashboard__item__name">God Of War Ragnarok</p>
-                    <p class="dashboard__valor">R$ 199,00 </p>
-
-
-                    <section class="parte-inferior">
-                        <label class="campo-grupo">
-                          <span class="texto-medio-azul">Qtde:</span>
-                          <input class="quantidade-input" id="quantidade" type="number" placeholder="0">
-                        </label>
-              
-                        <section class="botoes-wrapper">
-                          <button onclick="openPopup()" type="button" class="botao-form botao-adicionar">Adicionar</button>
-                        </section>
-                      </section>
+                    <p class="dashboard__item__name">Jogo de Panela</p>
+                    <p class="dashboard__valor">R$ 249,00 </p>
                       
                     <body>
-                      <a onclick="alterarStatus(1);" class="dashboard__item__button" >Comprar</a>
+                      <a onclick="alterarStatus(1); openPopup()"  class="dashboard__item__button" >Reservar Presente</a>
                     
                       <div id="overlay" onclick="closePopup()"></div>
                     
                       <div id="popup" class="popup">
-                        <h2>Carrinho de Compras</h2>
-                        <p>Seu produto foi adicionado ao carrinho</p>
+                        <h2>Produto Selecionado Reservado</h2>
+                        <p>Vá no carrinho para confirmar a reserva!</p>
                         <button onclick="closePopup()">Fechar</button>
                       </div>
                     
@@ -67,108 +55,58 @@
                 </li>
                 <li class="dashboard__items__item" id="game-2">
                     <div class="dashboard__item__img">
-                        <img src="img/farming_simulator_25.png" alt="Capa jogo Farming Simulator 2025">
+                        <img src="img/mesajantar.png" alt="Capa jogo Farming Simulator 2025">
                     </div>
-                    <p class="dashboard__item__name">Farming Simulator 25</p>
-                    <p class="dashboard__valor">R$ 325,00 </p>
+                    <p class="dashboard__item__name">Mesa de Jantar</p>
+                    <p class="dashboard__valor">R$ 499,00 </p>
 
-                    <section class="parte-inferior">
-                        <label class="campo-grupo">
-                          <span class="texto-medio-azul">Qtde:</span>
-                          <input class="quantidade-input" id="quantidade" type="number" placeholder="0">
-                        </label>
-              
-                        <section class="botoes-wrapper">
-                          <button onclick="openPopup()" type="button" class="botao-form botao-adicionar">Adicionar</button>
-                        </section>
-                      </section>
+        
 
 
-                    <a onclick="alterarStatus(2)" class="dashboard__item__button">Comprar</a>
+                    <a onclick="alterarStatus(2)" class="dashboard__item__button">Reservar Presente</a>
                 </li>
                 <li class="dashboard__items__item" id="game-3">
                     <div class="dashboard__item__img ">
-                        <img src="img/gta_vi.png" alt="Capa jogo GTA VI">
+                        <img src="img/vasilhas.png" alt="Capa jogo GTA VI">
                     </div>
-                    <p class="dashboard__item__name">GTA VI</p>
-                    <p class="dashboard__valor">R$ 699,00 </p>
-
-                    <section class="parte-inferior">
-                        <label class="campo-grupo">
-                          <span class="texto-medio-azul">Qtde:</span>
-                          <input class="quantidade-input" id="quantidade" type="number" placeholder="0">
-                        </label>
-              
-                        <section class="botoes-wrapper">
-                          <button onclick="openPopup()" type="button" class="botao-form botao-adicionar">Adicionar</button>
-                        </section>
-                      </section>
+                    <p class="dashboard__item__name">Vasilhas</p>
+                    <p class="dashboard__valor">R$ 69,00 </p>
 
                       
-                    <a onclick="alterarStatus(3)" class="dashboard__item__button">Comprar</a>
+                    <a onclick="alterarStatus(3)" class="dashboard__item__button">Reservar Presente</a>
                 </li>
                 <li class="dashboard__items__item" id="game-4">
                     <div class="dashboard__item__img">
-                        <img src="img/fifa25.png" alt="Capa jogo God Of War">
+                        <img src="img/jogocopo.png" alt="Capa jogo God Of War">
                     </div>
-                    <p class="dashboard__item__name">FIFA 2025</p>
-                    <p class="dashboard__valor">R$ 299,00 </p>
-
-                    <section class="parte-inferior">
-                        <label class="campo-grupo">
-                          <span class="texto-medio-azul">Qtde:</span>
-                          <input class="quantidade-input" id="quantidade" type="number" placeholder="0">
-                        </label>
-              
-                        <section class="botoes-wrapper">
-                          <button onclick="openPopup()" type="button" class="botao-form botao-adicionar">Adicionar</button>
-                        </section>
-                      </section>
+                    <p class="dashboard__item__name">Jogo de Copos</p>
+                    <p class="dashboard__valor">R$ 39,99 </p>
 
 
-                    <a onclick="alterarStatus(4)" class="dashboard__item__button">Comprar</a>
+
+                    <a onclick="alterarStatus(4)" class="dashboard__item__button">Reservar Presente</a>
                 </li>
                 <li class="dashboard__items__item" id="game-5">
                     <div class="dashboard__item__img">
-                        <img src="img/blackops6.png.jpg" alt="Capa jogo God Of War">
+                        <img src="img/portatempero.jpg" alt="Capa jogo God Of War">
                     </div>
-                    <p class="dashboard__item__name">Black Ops 6</p>
-                    <p class="dashboard__valor">R$ 360,00 </p>
-
-                    <section class="parte-inferior">
-                        <label class="campo-grupo">
-                          <span class="texto-medio-azul">Qtde:</span>
-                          <input class="quantidade-input" id="quantidade" type="number" placeholder="0">
-                        </label>
-              
-                        <section class="botoes-wrapper">
-                          <button onclick="openPopup()" type="button" class="botao-form botao-adicionar">Adicionar</button>
-                        </section>
-                      </section>
+                    <p class="dashboard__item__name">Porta tempero</p>
+                    <p class="dashboard__valor">R$ 119,99 </p>
 
 
-                    <a onclick="alterarStatus(5)" class="dashboard__item__button">Comprar</a>
+
+                    <a onclick="alterarStatus(5)" class="dashboard__item__button">Reservar Presente</a>
                 </li>
                 <li class="dashboard__items__item" id="game-6">
                     <div class="dashboard__item__img">
-                        <img src="img/sonsoftheforest.png" alt="Capa jogo God Of War">
+                        <img src="img/airfryer.png" alt="Capa jogo God Of War">
                     </div>
-                    <p class="dashboard__item__name">Sons Of The Forest</p>
-                    <p class="dashboard__valor">R$ 42,00 </p>
+                    <p class="dashboard__item__name">Air Fryer</p>
+                    <p class="dashboard__valor">R$ 249,99 </p>
 
-                    <section class="parte-inferior">
-                        <label class="campo-grupo">
-                          <span class="texto-medio-azul">Qtde:</span>
-                          <input class="quantidade-input" id="quantidade" type="number" placeholder="0">
-                        </label>
-              
-                        <section class="botoes-wrapper">
-                          <button onclick="openPopup()" type="button" class="botao-form botao-adicionar">Adicionar</button>
-                        </section>
-                      </section>
 
                       
-                    <a onclick="alterarStatus(6)" id="myButton" class="dashboard__item__button">Comprar</a>
+                    <a onclick="alterarStatus(6)" id="myButton" class="dashboard__item__button">Reservar Presente</a>
                 </li>
             </ul>
         </section>

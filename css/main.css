@@ -7,7 +7,7 @@
     min-height: 100vh;
 
     background: rgb(0, 0, 0);
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(1, 8, 14, 1) 25%, rgba(80, 94, 255, 0.85) 50%, rgba(1, 8, 14, 1) 75%, rgba(0, 0, 0, 1) 100%);
+    background: linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 25%, rgba(0, 0, 0) 50%, rgb(193, 4, 207) 75%, rgb(0, 0, 0) 100%);
     background-repeat: no-repeat;
     background-attachment: fixed;
 
@@ -32,13 +32,13 @@
 
 .dashbord_logo{
     
-    border-radius: 2rem;
-    border-width: 3px;
+    border-radius: 1rem;
+    border-width: 1px;
     border-style: solid;
     border-color: #00F4BF;
 
-    height: 70px;
-    width: 250px;
+    height: 500px;
+    width: 900px;
 
     
 
@@ -67,7 +67,7 @@
 }
 
 .page-title__emphasis {
-    color: #505EFF;
+    color: #f10ccf;
 }
 
 .dashboard {

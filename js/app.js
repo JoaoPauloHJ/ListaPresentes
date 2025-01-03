@@ -13,7 +13,7 @@ function alterarStatus(id) {
     if(imagem.classList.contains('dashboard__item__img--rented')) {
 
         imagem.classList.remove('dashboard__item__img--rented');
-        botao.textContent = 'Comprar';
+        botao.textContent = 'Reservar presente';
         botao.classList.remove('dashboard__item__button--return');
 
     } else {
